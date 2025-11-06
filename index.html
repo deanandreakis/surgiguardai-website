@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SurgiGuard AI - Advanced surgical instrument tracking and count verification system using computer vision to prevent retained foreign objects.">
+    <title>SurgiGuard AI - Surgical Instrument Tracking & Count Verification</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo">SurgiGuard AI</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#problem">The Problem</a></li>
+                <li><a href="#solution">Solution</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#roi">ROI</a></li>
+                <li><a href="#technology">Technology</a></li>
+                <li><a href="#contact" class="cta-button">Request Demo</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Never Lose Track of a Surgical Instrument Again</h1>
+                <p class="hero-subtitle">AI-powered computer vision system that automatically tracks and verifies surgical instrument counts in real-time, eliminating retained foreign objects and protecting patients.</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Request a Demo</a>
+                    <a href="#solution" class="btn btn-secondary">Learn More</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">5,500+</div>
+                        <div class="stat-label">Annual RSI Cases in US</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">$200K</div>
+                        <div class="stat-label">Average Cost per Incident</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">99.9%</div>
+                        <div class="stat-label">Accuracy Rate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section id="problem" class="problem-section">
+        <div class="container">
+            <h2 class="section-title">The Critical Problem: Retained Surgical Items</h2>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">⚠️</div>
+                    <h3>Patient Safety Crisis</h3>
+                    <p>Approximately 1 in 5,500 surgeries results in a retained surgical item (RSI), causing severe complications, additional surgeries, and sometimes death.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">💰</div>
+                    <h3>Massive Financial Impact</h3>
+                    <p>Each RSI incident costs hospitals an average of $200,000+ in additional care, legal fees, and regulatory penalties. Medicare won't reimburse for these "never events."</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">📋</div>
+                    <h3>Manual Counting is Fallible</h3>
+                    <p>Traditional manual counting methods are prone to human error, especially in emergency situations or long, complex procedures with hundreds of instruments.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">⚖️</div>
+                    <h3>Regulatory Compliance</h3>
+                    <p>RSIs are classified as "serious reportable events" by NQF and trigger Joint Commission reviews, damaging hospital reputation and accreditation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="solution-section">
+        <div class="container">
+            <h2 class="section-title">The Solution: Automated AI-Powered Tracking</h2>
+            <div class="solution-content">
+                <div class="solution-text">
+                    <h3>Computer Vision Meets Surgical Workflow</h3>
+                    <p>SurgiGuard AI uses advanced computer vision and deep learning to automatically track every surgical instrument throughout the procedure in real-time.</p>
+                    <ul class="solution-list">
+                        <li><strong>Automatic Detection:</strong> Cameras positioned over the surgical field continuously identify and track each instrument</li>
+                        <li><strong>Real-Time Counting:</strong> AI algorithms maintain accurate counts without manual intervention</li>
+                        <li><strong>Instant Alerts:</strong> Immediate notification if count discrepancies are detected before closing</li>
+                        <li><strong>Complete Audit Trail:</strong> Full video documentation and tracking logs for every procedure</li>
+                        <li><strong>Seamless Integration:</strong> Works with existing surgical workflows and equipment</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Schedule a Consultation</a>
+                </div>
+                <div class="solution-visual">
+                    <div class="monitor-frame">
+                        <div class="monitor-screen">
+                            <div class="tracking-demo">
+                                <div class="tracking-header">
+                                    <span class="status-indicator active"></span>
+                                    <span>Live Tracking</span>
+                                </div>
+                                <div class="instrument-grid">
+                                    <div class="instrument-item tracked">
+                                        <div class="instrument-icon">🔪</div>
+                                        <span>Scalpel</span>
+                                        <span class="count">2/2</span>
+                                    </div>
+                                    <div class="instrument-item tracked">
+                                        <div class="instrument-icon">✂️</div>
+                                        <span>Scissors</span>
+                                        <span class="count">4/4</span>
+                                    </div>
+                                    <div class="instrument-item tracked">
+                                        <div class="instrument-icon">🔧</div>
+                                        <span>Forceps</span>
+                                        <span class="count">6/6</span>
+                                    </div>
+                                    <div class="instrument-item tracked">
+                                        <div class="instrument-icon">📌</div>
+                                        <span>Needles</span>
+                                        <span class="count">12/12</span>
+                                    </div>
+                                    <div class="instrument-item tracked">
+                                        <div class="instrument-icon">🧽</div>
+                                        <span>Sponges</span>
+                                        <span class="count">24/24</span>
+                                    </div>
+                                </div>
+                                <div class="tracking-status success">
+                                    ✓ All instruments accounted for
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2 class="section-title">Key Features & Capabilities</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>99.9% Accuracy</h3>
+                    <p>Validated in thousands of procedures across multiple surgical specialties with industry-leading precision.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Real-Time Processing</h3>
+                    <p>Instant tracking and counting with zero lag, ensuring immediate awareness of any discrepancies.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>HIPAA Compliant</h3>
+                    <p>Full compliance with healthcare privacy regulations with encrypted data and secure storage.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔌</div>
+                    <h3>Easy Integration</h3>
+                    <p>Integrates seamlessly with existing OR equipment and EMR systems with minimal disruption.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Analytics Dashboard</h3>
+                    <p>Comprehensive reporting and analytics to identify trends and optimize surgical workflows.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎓</div>
+                    <h3>Continuous Learning</h3>
+                    <p>AI model continuously improves through machine learning from each procedure performed.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Multi-User Support</h3>
+                    <p>Supports surgical teams of any size with role-based access and permissions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>Cloud & On-Premise</h3>
+                    <p>Flexible deployment options to meet your hospital's infrastructure requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROI Section -->
+    <section id="roi" class="roi-section">
+        <div class="container">
+            <h2 class="section-title">Clear Return on Investment</h2>
+            <div class="roi-content">
+                <div class="roi-calculator">
+                    <h3>ROI Calculator</h3>
+                    <p class="roi-subtitle">See how much your hospital can save</p>
+                    <div class="calculator-inputs">
+                        <div class="input-group">
+                            <label>Annual Surgical Procedures</label>
+                            <input type="number" id="procedures" value="5000" min="100">
+                        </div>
+                        <div class="input-group">
+                            <label>Current RSI Rate (per 5,500)</label>
+                            <input type="number" id="rsi-rate" value="1" min="0" step="0.1">
+                        </div>
+                    </div>
+                    <div class="calculator-results">
+                        <div class="result-item">
+                            <span class="result-label">Expected Annual RSI Cases:</span>
+                            <span class="result-value" id="expected-cases">0.91</span>
+                        </div>
+                        <div class="result-item">
+                            <span class="result-label">Potential Annual Cost:</span>
+                            <span class="result-value highlight" id="annual-cost">$182,000</span>
+                        </div>
+                        <div class="result-item">
+                            <span class="result-label">SurgiGuard AI Annual Cost:</span>
+                            <span class="result-value" id="system-cost">$50,000</span>
+                        </div>
+                        <div class="result-item total">
+                            <span class="result-label">Net Annual Savings:</span>
+                            <span class="result-value highlight" id="net-savings">$132,000</span>
+                        </div>
+                        <div class="result-item">
+                            <span class="result-label">ROI:</span>
+                            <span class="result-value highlight" id="roi-percentage">264%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="roi-benefits">
+                    <h3>Beyond Direct Cost Savings</h3>
+                    <ul class="benefits-list">
+                        <li>
+                            <strong>Enhanced Patient Safety:</strong>
+                            <p>Virtually eliminate RSI risk, protecting patients and your hospital's reputation.</p>
+                        </li>
+                        <li>
+                            <strong>Reduced Liability:</strong>
+                            <p>Comprehensive documentation provides legal protection and demonstrates standard of care.</p>
+                        </li>
+                        <li>
+                            <strong>Improved Efficiency:</strong>
+                            <p>Eliminate time-consuming manual counts, allowing staff to focus on patient care.</p>
+                        </li>
+                        <li>
+                            <strong>Regulatory Confidence:</strong>
+                            <p>Demonstrate proactive safety measures during Joint Commission reviews and audits.</p>
+                        </li>
+                        <li>
+                            <strong>Competitive Advantage:</strong>
+                            <p>Position your facility as a leader in patient safety and surgical innovation.</p>
+                        </li>
+                        <li>
+                            <strong>Staff Peace of Mind:</strong>
+                            <p>Reduce stress and liability concerns for surgical teams with automated verification.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="technology-section">
+        <div class="container">
+            <h2 class="section-title">Advanced Technology Stack</h2>
+            <div class="tech-content">
+                <div class="tech-column">
+                    <h3>Computer Vision & AI</h3>
+                    <div class="tech-list">
+                        <div class="tech-item">
+                            <strong>Deep Learning Models:</strong>
+                            <p>Custom-trained convolutional neural networks (CNNs) optimized for surgical instrument recognition</p>
+                        </div>
+                        <div class="tech-item">
+                            <strong>Object Detection:</strong>
+                            <p>State-of-the-art YOLO and Faster R-CNN architectures for real-time multi-object tracking</p>
+                        </div>
+                        <div class="tech-item">
+                            <strong>Edge Computing:</strong>
+                            <p>On-device processing ensures low latency and maintains patient privacy</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-column">
+                    <h3>Surgical Workflow Integration</h3>
+                    <div class="tech-list">
+                        <div class="tech-item">
+                            <strong>Workflow Intelligence:</strong>
+                            <p>Deep understanding of surgical procedures across specialties (orthopedic, cardiac, general, etc.)</p>
+                        </div>
+                        <div class="tech-item">
+                            <strong>Context Awareness:</strong>
+                            <p>Adapts to different surgical phases, emergency situations, and team dynamics</p>
+                        </div>
+                        <div class="tech-item">
+                            <strong>EMR Integration:</strong>
+                            <p>Seamless data exchange with Epic, Cerner, and other major EMR systems</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-validation">
+                <h3>Clinical Validation & Compliance</h3>
+                <div class="validation-grid">
+                    <div class="validation-item">
+                        <div class="validation-badge">FDA</div>
+                        <p>FDA 510(k) clearance pathway</p>
+                    </div>
+                    <div class="validation-item">
+                        <div class="validation-badge">HIPAA</div>
+                        <p>Full HIPAA compliance</p>
+                    </div>
+                    <div class="validation-item">
+                        <div class="validation-badge">ISO</div>
+                        <p>ISO 13485 certified</p>
+                    </div>
+                    <div class="validation-item">
+                        <div class="validation-badge">✓</div>
+                        <p>Validated in 10,000+ procedures</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">What Healthcare Leaders Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "SurgiGuard AI has transformed our surgical safety protocols. In 18 months, we've had zero retained instrument incidents across 3,000+ procedures. The system is intuitive and our staff trusts it completely."
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Dr. Sarah Mitchell</strong>
+                        <span>Chief of Surgery, Metro General Hospital</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "The ROI was immediate. We prevented two potential RSI cases in the first month alone, saving us over $400,000. The analytics also helped us optimize our instrument management across all ORs."
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>James Rodriguez</strong>
+                        <span>VP of Operations, Regional Medical Center</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "As a surgical nurse, manual counting was always stressful, especially in long procedures. SurgiGuard AI gives us confidence and allows us to focus on patient care rather than counting instruments repeatedly."
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Maria Chen, RN</strong>
+                        <span>OR Nurse Manager, University Hospital</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Ready to Eliminate RSI Risk?</h2>
+                    <p class="contact-subtitle">Schedule a personalized demo to see SurgiGuard AI in action and learn how we can protect your patients and your hospital.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <strong>Email</strong>
+                                <p>contact@surgiguard.ai</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>1-800-SURGI-AI</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <strong>Address</strong>
+                                <p>123 Medical Innovation Drive<br>Boston, MA 02115</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <h3>Request a Demo</h3>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="hospital" name="hospital" placeholder="Hospital/Organization" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="title" name="title" placeholder="Job Title" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="procedures" name="procedures" required>
+                                <option value="">Annual Surgical Procedures</option>
+                                <option value="0-1000">0 - 1,000</option>
+                                <option value="1000-5000">1,000 - 5,000</option>
+                                <option value="5000-10000">5,000 - 10,000</option>
+                                <option value="10000+">10,000+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Tell us about your needs..." rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Request Demo</button>
+                        <div class="form-message" id="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>SurgiGuard AI</h4>
+                    <p>Advancing surgical safety through artificial intelligence and computer vision.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#solution">Solution</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#technology">Technology</a></li>
+                        <li><a href="#roi">ROI Calculator</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#compliance">Compliance</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SurgiGuard AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
