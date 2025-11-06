@@ -138,7 +138,7 @@ if (contactForm) {
             }
         } catch (error) {
             formMessage.className = 'form-message error';
-            formMessage.textContent = 'Sorry, there was an error. Please try again or email us directly at contact@surgiguard.ai';
+            formMessage.textContent = 'Sorry, there was an error. Please try again or email us directly at support@deanware.com';
         } finally {
             submitButton.textContent = originalButtonText;
             submitButton.disabled = false;
@@ -301,4 +301,4 @@ window.addEventListener('scroll', () => {
 // Console greeting
 console.log('%cSurgiGuard AI', 'color: #0066cc; font-size: 24px; font-weight: bold;');
 console.log('%cAdvancing surgical safety through AI', 'color: #00cc88; font-size: 14px;');
-console.log('%cInterested in joining our team? Email careers@surgiguard.ai', 'color: #666; font-size: 12px;');
+console.log('%cInterested in joining our team? Email support@deanware.com', 'color: #666; font-size: 12px;');
